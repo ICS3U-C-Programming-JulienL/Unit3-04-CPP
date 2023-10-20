@@ -1,7 +1,7 @@
 // Copyright (c) 2023 Julien Lamoureux All rights reserved.
 // .
 // Created by: Julien Lamoureux
-// Date: October 13, 2023
+// Date: October 19, 2023
 // This program displays the type of integer entered by the user
 
 #include <cstdlib>
@@ -23,7 +23,7 @@ int main() {
         // otherwise, if the user integer < 0, tell them it is negative
         std ::cout << userInteger << " is negative." << std::endl;
     } else {
-        // otherwise the number is 0
+        // otherwise, tell them the number is 0
         std ::cout << "The number is 0." << std::endl;
     }
 }
